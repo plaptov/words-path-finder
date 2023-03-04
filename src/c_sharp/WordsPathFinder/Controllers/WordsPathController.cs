@@ -5,7 +5,7 @@ using WordsPathFinder.Services;
 namespace WordsPathFinder.Controllers;
 
 [ApiController]
-[Route("wordsPath")]
+[Route("api/wordsPath")]
 public class WordsPathController : ControllerBase
 {
     private readonly IPathFinderService _pathFinderService;
